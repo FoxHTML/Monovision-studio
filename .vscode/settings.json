@@ -1,0 +1,8 @@
+{
+  "livePreview.defaultPreviewPath": "/src/index.html",
+  "liveServer.settings.port": 5501,
+  "stylefmt.showErrorMessages": false,
+  "editor.formatOnSave": true,
+  "notebook.formatOnSave.enabled": true,
+  "autoprefixer.formatOnSave": true
+}
