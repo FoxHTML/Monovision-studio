@@ -111,6 +111,9 @@ html {
     font-style: normal;
     font-weight: 400;
     text-transform: uppercase;
+    &:hover {
+      color: red;
+    }
     @media screen and (max-width: 768px) {
       font-size: 48px;
     }
@@ -164,6 +167,7 @@ html {
 }
 
 .btn:hover {
+  color: red;
   font-weight: 600;
   box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.62);
 }
