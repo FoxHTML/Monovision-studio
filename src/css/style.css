@@ -366,6 +366,10 @@ html {
           background: url("../icons/Edit.svg") center center / cover no-repeat;
           left: -30px;
           top: 2px;
+           @media screen and (max-width: 576px) {
+            display: none;
+          }
+        }
         }
         @media screen and (max-width: 576px) {
           font-size: 14px;
@@ -400,7 +404,6 @@ html {
         }
       }
     }
-  }
 .works {
   padding-top: 80px;
   background-color: var(--light-color, #f5f5f7);
@@ -725,4 +728,5 @@ html {
     }
   }
 }
+  }
 }
