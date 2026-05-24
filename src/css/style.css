@@ -318,6 +318,7 @@ html {
 }
 
 .services {
+  margin-left: 30px;
   margin-top: 80px;
   display: flex;
   -moz-column-gap: 10px;
