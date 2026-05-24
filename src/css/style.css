@@ -354,6 +354,7 @@ html {
         @media screen and (max-width: 576px) {
           display: none;
         }
+      }
         &:nth-child(3)::before {
           content: "";
           display: block;
@@ -398,7 +399,6 @@ html {
       }
     }
   }
-}
 .works {
   padding-top: 80px;
   background-color: var(--light-color, #f5f5f7);
@@ -722,4 +722,5 @@ html {
       /* Центрируем текст внутри блока */
     }
   }
+}
 }
